@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T01:07:07.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.3.0" etag="WMu8vt75uYIcf_p1r7wH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T01:14:24.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="846A6mPlP_ekY5Wp_6zx" version="24.3.0" type="github">
   <diagram name="第 1 页" id="kRVQodbaFXy-0gnkXY9c">
-    <mxGraphModel>
+    <mxGraphModel dx="1002" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vp7aRNDRigZrt6QZ6jA6-1" target="Vp7aRNDRigZrt6QZ6jA6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vp7aRNDRigZrt6QZ6jA6-1" target="Vp7aRNDRigZrt6QZ6jA6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vp7aRNDRigZrt6QZ6jA6-1" target="Vp7aRNDRigZrt6QZ6jA6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vp7aRNDRigZrt6QZ6jA6-1" target="Vp7aRNDRigZrt6QZ6jA6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vp7aRNDRigZrt6QZ6jA6-1" target="Vp7aRNDRigZrt6QZ6jA6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vp7aRNDRigZrt6QZ6jA6-1" target="Vp7aRNDRigZrt6QZ6jA6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-1" value="智能题库系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-2" value="自动评估模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-3" value="审核和检测模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="320" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-4" value="用户和权限管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-5" value="班级管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-6" value="社区和题库管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7aRNDRigZrt6QZ6jA6-7" value="练习和考试管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="50" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
