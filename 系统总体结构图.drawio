@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T18:36:27.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="stTKLOdB_uY20YJfJeNo" version="24.4.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-05-17T19:14:34.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="yBW1gxGsmfdX4lR-5d1z" version="24.4.4" type="github" pages="8">
   <diagram name="总体结构图" id="eObKTCuL2aLBovRg0y6s">
     <mxGraphModel dx="628" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
         <mxCell id="7kaJdCATAkO4GqcZyHqF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=0" parent="1" source="7kaJdCATAkO4GqcZyHqF-8" target="7kaJdCATAkO4GqcZyHqF-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="60" />
+              <mxPoint x="170" y="60" />
               <mxPoint x="20" y="60" />
             </Array>
           </mxGeometry>
@@ -88,7 +88,7 @@
         <mxCell id="7kaJdCATAkO4GqcZyHqF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=0" parent="1" source="7kaJdCATAkO4GqcZyHqF-8" target="7kaJdCATAkO4GqcZyHqF-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="60" />
+              <mxPoint x="170" y="60" />
               <mxPoint x="80" y="60" />
             </Array>
           </mxGeometry>
@@ -105,21 +105,13 @@
         <mxCell id="7kaJdCATAkO4GqcZyHqF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=0" parent="1" source="7kaJdCATAkO4GqcZyHqF-8" target="7kaJdCATAkO4GqcZyHqF-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="60" />
+              <mxPoint x="170" y="60" />
               <mxPoint x="320" y="60" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7kaJdCATAkO4GqcZyHqF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=0" parent="1" source="7kaJdCATAkO4GqcZyHqF-8" target="7kaJdCATAkO4GqcZyHqF-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="200" y="60" />
-              <mxPoint x="380" y="60" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7kaJdCATAkO4GqcZyHqF-8" value="微服务基础设施" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="120" width="160" height="40" as="geometry" />
+          <mxGeometry x="90" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7kaJdCATAkO4GqcZyHqF-9" value="API网关" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="1" vertex="1">
           <mxGeometry y="80" width="40" height="160" as="geometry" />
@@ -151,9 +143,6 @@
         </mxCell>
         <mxCell id="7kaJdCATAkO4GqcZyHqF-12" value="持久化层" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="40" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="7kaJdCATAkO4GqcZyHqF-13" value="监控与日志" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="360" y="80" width="40" height="160" as="geometry" />
         </mxCell>
         <mxCell id="7kaJdCATAkO4GqcZyHqF-14" value="配置中心" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="40" height="160" as="geometry" />
