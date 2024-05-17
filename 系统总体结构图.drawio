@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T15:39:59.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="vJpMkc9m2b8D2MqbqznB" version="24.4.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-05-17T16:26:45.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="E_6ZwcEPrU5jxEMAzvfg" version="24.4.4" type="github" pages="8">
   <diagram name="总体结构图" id="eObKTCuL2aLBovRg0y6s">
     <mxGraphModel dx="520" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -269,9 +269,93 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="jdIbcrPms2gUhNTZ2ln3" name="自动评测" />
+  <diagram id="jdIbcrPms2gUhNTZ2ln3" name="自动评测">
+    <mxGraphModel dx="628" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3TBexgA2kITxujay0bop-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=1;endArrow=none;endFill=0;startArrow=none;startFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-7" target="3TBexgA2kITxujay0bop-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="60" />
+              <mxPoint x="20" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3TBexgA2kITxujay0bop-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=none;endFill=0;startArrow=none;startFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-7" target="3TBexgA2kITxujay0bop-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TBexgA2kITxujay0bop-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=none;endFill=0;startArrow=none;startFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-7" target="3TBexgA2kITxujay0bop-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-7" target="7ztqIl_7mpwJkRQCzAdN-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-7" target="7ztqIl_7mpwJkRQCzAdN-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="60" />
+              <mxPoint x="260" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3TBexgA2kITxujay0bop-7" value="自动评测模块" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3TBexgA2kITxujay0bop-8" value="评测任务接收" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry y="80" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-9" target="7ztqIl_7mpwJkRQCzAdN-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="260" />
+              <mxPoint x="50" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-9" target="7ztqIl_7mpwJkRQCzAdN-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-9" target="7ztqIl_7mpwJkRQCzAdN-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" source="3TBexgA2kITxujay0bop-9" target="7ztqIl_7mpwJkRQCzAdN-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="260" />
+              <mxPoint x="230" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3TBexgA2kITxujay0bop-9" value="评测任务处理抽象" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3TBexgA2kITxujay0bop-10" value="评测结果推送" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-1" value="评测任务信息维护" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="80" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-2" value="评测结果解析" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-5" value="子进程创建与通信" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="30" y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-7" value="子进程输出管理" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="90" y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-9" value="子进程错误处理" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="150" y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ztqIl_7mpwJkRQCzAdN-11" value="子进程资源释放" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="210" y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="IcU5u9s4QA0SuOH05t1z" name="用户和权限管理">
-    <mxGraphModel dx="910" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="758" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -522,5 +606,88 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="mv6Qk3AoBX3FIpO2wDD1" name="练习和考试管理" />
+  <diagram id="mv6Qk3AoBX3FIpO2wDD1" name="练习和考试管理">
+    <mxGraphModel dx="758" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rwoomt6iMrgox2TJ__lw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=1" edge="1" parent="1" source="rwoomt6iMrgox2TJ__lw-5" target="rwoomt6iMrgox2TJ__lw-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="60" />
+              <mxPoint x="20" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=1" edge="1" parent="1" source="rwoomt6iMrgox2TJ__lw-5" target="rwoomt6iMrgox2TJ__lw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=1" edge="1" parent="1" source="rwoomt6iMrgox2TJ__lw-5" target="rwoomt6iMrgox2TJ__lw-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="60" />
+              <mxPoint x="260" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-5" value="练习和考试管理模块" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-8" value="创建考试" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="80" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=1" edge="1" parent="1" source="rwoomt6iMrgox2TJ__lw-11" target="rwoomt6iMrgox2TJ__lw-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontFamily=宋体;endArrow=none;endFill=0;fontStyle=1" edge="1" parent="1" source="rwoomt6iMrgox2TJ__lw-11" target="rwoomt6iMrgox2TJ__lw-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-11" value="用户答题" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontFamily=宋体;fontStyle=1" edge="1" parent="1" source="rwoomt6iMrgox2TJ__lw-14" target="rwoomt6iMrgox2TJ__lw-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="260" />
+              <mxPoint x="20" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontStyle=1;fontFamily=宋体;" edge="1" parent="1" source="rwoomt6iMrgox2TJ__lw-14" target="rwoomt6iMrgox2TJ__lw-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="260" />
+              <mxPoint x="90" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=13;fontStyle=1;fontFamily=宋体;" edge="1" parent="1" source="rwoomt6iMrgox2TJ__lw-14" target="rwoomt6iMrgox2TJ__lw-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="260" />
+              <mxPoint x="160" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-14" value="考试参数修改" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-15" value="基础信息修改" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-16" value="试题模板修改" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-22" value="试卷生成与分配" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-23" value="答题结果更新" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rwoomt6iMrgox2TJ__lw-27" value="考试参数锁定" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="40" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
