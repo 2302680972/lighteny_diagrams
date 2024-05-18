@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T18:21:25.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="3Bv53grhEtJOAbi85id8" version="24.4.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-05-18T19:34:49.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="VoPBzDIakcaIodhiqRE-" version="24.4.4" type="github" pages="8">
   <diagram id="D-JO7kzNSzDDtcfeJt4W" name="系统架构图">
     <mxGraphModel dx="2022" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -796,7 +796,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="NwYpffu2cbpcjLLNDQpc" name="第 2 页" />
+  <diagram id="NwYpffu2cbpcjLLNDQpc" name="第 2 页">
+    <mxGraphModel dx="1219" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="5MYeH3F_p5fjcmhYSKnP" name="第 3 页">
     <mxGraphModel dx="910" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -886,7 +893,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6cZba66XL-XJZLOzfYsC" name="第 5 页">
-    <mxGraphModel dx="910" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="853" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -905,7 +912,7 @@
         <mxCell id="lo46etkP5e846IquUNDZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-6" target="lo46etkP5e846IquUNDZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-6" target="lo46etkP5e846IquUNDZ-10" edge="1">
+        <mxCell id="lo46etkP5e846IquUNDZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=11;dashed=1;" parent="1" source="lo46etkP5e846IquUNDZ-6" target="lo46etkP5e846IquUNDZ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lo46etkP5e846IquUNDZ-6" value="启动docker容器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
@@ -955,6 +962,9 @@
         <mxCell id="lo46etkP5e846IquUNDZ-25" value="字节码编码" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="240" y="280" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="z1rWqzhzv9Y15f7OmJQL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="lo46etkP5e846IquUNDZ-27" target="lo46etkP5e846IquUNDZ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lo46etkP5e846IquUNDZ-27" value="发送到输出流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="240" y="340" width="80" height="40" as="geometry" />
         </mxCell>
@@ -976,7 +986,7 @@
         <mxCell id="lo46etkP5e846IquUNDZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-37" target="lo46etkP5e846IquUNDZ-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-37" target="lo46etkP5e846IquUNDZ-53" edge="1">
+        <mxCell id="lo46etkP5e846IquUNDZ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;dashed=1;" parent="1" source="lo46etkP5e846IquUNDZ-37" target="lo46etkP5e846IquUNDZ-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lo46etkP5e846IquUNDZ-37" value="启动docker容器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
@@ -1055,6 +1065,14 @@
         </mxCell>
         <mxCell id="lo46etkP5e846IquUNDZ-64" value="设置输入流" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="480" y="340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z1rWqzhzv9Y15f7OmJQL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="lo46etkP5e846IquUNDZ-66" target="lo46etkP5e846IquUNDZ-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="420" />
+              <mxPoint x="460" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="lo46etkP5e846IquUNDZ-66" value="调用固定方法" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="480" y="400" width="80" height="40" as="geometry" />
