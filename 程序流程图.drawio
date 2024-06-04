@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T09:13:55.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="EMNiIiwUCZd0IegrNl-b" version="24.4.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-06-04T07:33:01.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="V7yFdZ_GLeAc3tgQG8Q-" version="24.4.10" type="github" pages="9">
   <diagram id="D-JO7kzNSzDDtcfeJt4W" name="系统架构图">
     <mxGraphModel dx="2022" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1089,189 +1089,169 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6cZba66XL-XJZLOzfYsC" name="第 5 页">
-    <mxGraphModel dx="853" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lo46etkP5e846IquUNDZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-1" target="lo46etkP5e846IquUNDZ-4" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-2" value="任务处理者" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry width="360" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-3" value="消息队列" style="swimlane;startSize=20;html=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-2">
+          <mxGeometry y="20" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-3" source="lo46etkP5e846IquUNDZ-1" target="JD-z3Ef5badZIyA00Ynr-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-1" value="从消息队列拉取" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="120" y="40" width="80" height="40" as="geometry" />
+        <mxCell id="lo46etkP5e846IquUNDZ-1" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=11;" parent="JD-z3Ef5badZIyA00Ynr-3" vertex="1">
+          <mxGeometry x="20" y="30" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-4" target="lo46etkP5e846IquUNDZ-6" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-7" value="接收任务" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-3">
+          <mxGeometry x="20" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-3" source="JD-z3Ef5badZIyA00Ynr-16" target="JD-z3Ef5badZIyA00Ynr-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-4" value="对源码编码" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="120" y="100" width="80" height="40" as="geometry" />
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-16" value="广播报告" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-3">
+          <mxGeometry x="20" y="330" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-6" target="lo46etkP5e846IquUNDZ-7" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-18" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-3">
+          <mxGeometry x="20" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-4" value="监听器" style="swimlane;startSize=20;html=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-2">
+          <mxGeometry x="120" y="20" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="lo46etkP5e846IquUNDZ-6" value="编码" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
+          <mxGeometry x="20" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lo46etkP5e846IquUNDZ-7" value="创建ProcessBuilder" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
+          <mxGeometry x="20" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lo46etkP5e846IquUNDZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="JD-z3Ef5badZIyA00Ynr-4" source="lo46etkP5e846IquUNDZ-6" target="lo46etkP5e846IquUNDZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=11;dashed=1;" parent="1" source="lo46etkP5e846IquUNDZ-6" target="lo46etkP5e846IquUNDZ-10" edge="1">
+        <mxCell id="lo46etkP5e846IquUNDZ-12" value="重定向IO流" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
+          <mxGeometry x="20" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lo46etkP5e846IquUNDZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="JD-z3Ef5badZIyA00Ynr-4" source="lo46etkP5e846IquUNDZ-7" target="lo46etkP5e846IquUNDZ-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-6" value="启动docker容器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="120" y="160" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-7" target="lo46etkP5e846IquUNDZ-12" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-4" source="JD-z3Ef5badZIyA00Ynr-12" target="JD-z3Ef5badZIyA00Ynr-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-7" value="进行重定向" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="120" y="220" width="80" height="40" as="geometry" />
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-12" value="解码输出信息" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-4">
+          <mxGeometry x="20" y="270" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-10" target="lo46etkP5e846IquUNDZ-15" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-14" value="生成评测报告" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-4">
+          <mxGeometry x="20" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-5" value="命令进程" style="swimlane;startSize=20;html=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-2">
+          <mxGeometry x="240" y="20" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-5" source="JD-z3Ef5badZIyA00Ynr-9" target="lo46etkP5e846IquUNDZ-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-10" value="编译容器启动" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="240" y="40" width="80" height="40" as="geometry" />
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-9" value="写入输入流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-5">
+          <mxGeometry x="20" y="210" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-12" target="lo46etkP5e846IquUNDZ-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lo46etkP5e846IquUNDZ-34" value="读取输出流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" parent="JD-z3Ef5badZIyA00Ynr-5" vertex="1">
+          <mxGeometry x="20" y="270" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-12" value="监听和等待输出" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="120" y="280" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-15" edge="1">
+        <mxCell id="lo46etkP5e846IquUNDZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="JD-z3Ef5badZIyA00Ynr-2" source="JD-z3Ef5badZIyA00Ynr-7" target="lo46etkP5e846IquUNDZ-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280.02857142857135" y="160" as="targetPoint" />
+            <mxPoint x="100" y="130" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-15" value="读取输入流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="240" y="100" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-22" target="lo46etkP5e846IquUNDZ-23" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-2" source="lo46etkP5e846IquUNDZ-12" target="JD-z3Ef5badZIyA00Ynr-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-22" value="对源码解码" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="240" y="160" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-23" target="lo46etkP5e846IquUNDZ-25" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-2" source="lo46etkP5e846IquUNDZ-34" target="JD-z3Ef5badZIyA00Ynr-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-23" value="进行编译" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="240" y="220" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-25" target="lo46etkP5e846IquUNDZ-27" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-2" source="JD-z3Ef5badZIyA00Ynr-14" target="JD-z3Ef5badZIyA00Ynr-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-25" value="字节码编码" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="240" y="280" width="80" height="40" as="geometry" />
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-20" value="Java评测容器" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" width="360" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="z1rWqzhzv9Y15f7OmJQL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="lo46etkP5e846IquUNDZ-27" target="lo46etkP5e846IquUNDZ-34">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-21" value="Docker守护进程" style="swimlane;startSize=20;html=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-20">
+          <mxGeometry y="20" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-21" source="JD-z3Ef5badZIyA00Ynr-23" target="JD-z3Ef5badZIyA00Ynr-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-27" value="发送到输出流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="240" y="340" width="80" height="40" as="geometry" />
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-23" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-21">
+          <mxGeometry x="20" y="30" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-39" target="lo46etkP5e846IquUNDZ-37" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-24" value="接收输入流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-21">
+          <mxGeometry x="20" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-21" source="JD-z3Ef5badZIyA00Ynr-26" target="JD-z3Ef5badZIyA00Ynr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-26" value="写入输出流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-21">
+          <mxGeometry x="20" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-27" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-21">
+          <mxGeometry x="20" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-28" value="容器主进程" style="swimlane;startSize=20;html=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-20">
+          <mxGeometry x="120" y="20" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-30" value="编译" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-28">
+          <mxGeometry x="20" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-32" value="创建子进程" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-28">
+          <mxGeometry x="20" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-28" source="JD-z3Ef5badZIyA00Ynr-30" target="JD-z3Ef5badZIyA00Ynr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-28" source="JD-z3Ef5badZIyA00Ynr-48" target="JD-z3Ef5badZIyA00Ynr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-48" value="读取和解码" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-28">
+          <mxGeometry x="20" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-55" value="读取并汇总" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-28">
+          <mxGeometry x="20" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-37" value="容器子进程" style="swimlane;startSize=20;html=1;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-20">
+          <mxGeometry x="240" y="20" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-37" source="JD-z3Ef5badZIyA00Ynr-39" target="JD-z3Ef5badZIyA00Ynr-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-39" value="读取文件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-37">
+          <mxGeometry x="20" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-40" value="写入输出流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-37">
+          <mxGeometry x="20" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-37" source="JD-z3Ef5badZIyA00Ynr-51" target="JD-z3Ef5badZIyA00Ynr-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-51" value="加载类并执行" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" vertex="1" parent="JD-z3Ef5badZIyA00Ynr-37">
+          <mxGeometry x="20" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-20" source="JD-z3Ef5badZIyA00Ynr-32" target="JD-z3Ef5badZIyA00Ynr-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-20" source="JD-z3Ef5badZIyA00Ynr-24" target="JD-z3Ef5badZIyA00Ynr-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-20" source="JD-z3Ef5badZIyA00Ynr-40" target="JD-z3Ef5badZIyA00Ynr-55">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="420" />
-              <mxPoint x="340" y="20" />
-              <mxPoint x="400" y="20" />
-            </Array>
+            <mxPoint x="220" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-34" target="lo46etkP5e846IquUNDZ-39" edge="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JD-z3Ef5badZIyA00Ynr-20" source="JD-z3Ef5badZIyA00Ynr-55" target="JD-z3Ef5badZIyA00Ynr-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-34" value="读取输出流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="120" y="340" width="80" height="40" as="geometry" />
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-57" value="（a）任务处理者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="460" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-37" target="lo46etkP5e846IquUNDZ-41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;dashed=1;" parent="1" source="lo46etkP5e846IquUNDZ-37" target="lo46etkP5e846IquUNDZ-53" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-37" value="启动docker容器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="360" y="40" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-39" value="测试用例编码" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="120" y="400" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-41" target="lo46etkP5e846IquUNDZ-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-41" value="进行重定向" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="360" y="100" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-43" target="lo46etkP5e846IquUNDZ-45" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-43" value="监听和等待输出" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="360" y="160" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-45" target="lo46etkP5e846IquUNDZ-47" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-45" value="读取输出流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="360" y="220" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-47" target="lo46etkP5e846IquUNDZ-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-47" value="解码输出信息" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="360" y="280" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-49" target="lo46etkP5e846IquUNDZ-51" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-49" value="生成评测报告" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="360" y="340" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-51" value="向消息队列广播" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="360" y="400" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-53" target="lo46etkP5e846IquUNDZ-55" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-53" value="执行容器启动" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="480" y="40" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-55" target="lo46etkP5e846IquUNDZ-57" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-55" value="读取输入流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="480" y="100" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-57" target="lo46etkP5e846IquUNDZ-59" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-57" value="字节码解码" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="480" y="160" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-59" target="lo46etkP5e846IquUNDZ-63" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-59" value="新java类加载" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="480" y="220" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-63" target="lo46etkP5e846IquUNDZ-64" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-63" value="整理输入流" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="480" y="280" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=11;" parent="1" source="lo46etkP5e846IquUNDZ-64" target="lo46etkP5e846IquUNDZ-66" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-64" value="设置输入流" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="480" y="340" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="z1rWqzhzv9Y15f7OmJQL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="lo46etkP5e846IquUNDZ-66" target="lo46etkP5e846IquUNDZ-45">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="460" y="420" />
-              <mxPoint x="460" y="240" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-66" value="调用固定方法" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="480" y="400" width="80" height="40" as="geometry" />
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-58" value="（b）评测容器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="460" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
