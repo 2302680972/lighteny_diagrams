@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T07:49:35.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="eF57BiHW6FUFZtYKHjNt" version="24.4.10" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-06-04T07:54:22.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="mXkDCNDLAkH1fGI417ZB" version="24.4.10" type="github" pages="9">
   <diagram id="D-JO7kzNSzDDtcfeJt4W" name="系统架构图">
     <mxGraphModel dx="2022" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1123,7 +1123,7 @@
         <mxCell id="lo46etkP5e846IquUNDZ-6" value="编码" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
           <mxGeometry x="10" y="90" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lo46etkP5e846IquUNDZ-7" value="创建ProcessBuilder" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
+        <mxCell id="lo46etkP5e846IquUNDZ-7" value="创建容器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
           <mxGeometry x="10" y="150" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lo46etkP5e846IquUNDZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" source="lo46etkP5e846IquUNDZ-6" target="lo46etkP5e846IquUNDZ-7" edge="1">
@@ -1138,10 +1138,10 @@
         <mxCell id="JD-z3Ef5badZIyA00Ynr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;fontSize=13;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" source="JD-z3Ef5badZIyA00Ynr-12" target="JD-z3Ef5badZIyA00Ynr-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JD-z3Ef5badZIyA00Ynr-12" value="解码输出信息" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-12" value="解码输出" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
           <mxGeometry x="10" y="270" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JD-z3Ef5badZIyA00Ynr-14" value="生成评测报告" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-14" value="生成报告" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-4" vertex="1">
           <mxGeometry x="10" y="330" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JD-z3Ef5badZIyA00Ynr-5" value="命令进程" style="swimlane;startSize=20;html=1;fontFamily=宋体;fontSize=13;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-2" vertex="1">
@@ -1230,7 +1230,7 @@
         <mxCell id="JD-z3Ef5badZIyA00Ynr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;fontSize=13;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-37" source="JD-z3Ef5badZIyA00Ynr-51" target="JD-z3Ef5badZIyA00Ynr-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JD-z3Ef5badZIyA00Ynr-51" value="加载类并执行" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-37" vertex="1">
+        <mxCell id="JD-z3Ef5badZIyA00Ynr-51" value="加载并执行" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fontFamily=宋体;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-37" vertex="1">
           <mxGeometry x="10" y="270" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JD-z3Ef5badZIyA00Ynr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;fontSize=13;fontStyle=0" parent="JD-z3Ef5badZIyA00Ynr-20" source="JD-z3Ef5badZIyA00Ynr-32" target="JD-z3Ef5badZIyA00Ynr-39" edge="1">
@@ -1248,10 +1248,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JD-z3Ef5badZIyA00Ynr-57" value="（a）任务处理者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontSize=13;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="120" y="460" width="120" height="30" as="geometry" />
+          <mxGeometry x="90" y="460" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JD-z3Ef5badZIyA00Ynr-58" value="（b）评测容器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontSize=13;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="505" y="460" width="110" height="30" as="geometry" />
+          <mxGeometry x="435" y="460" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
